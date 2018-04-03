@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
+
 public class PlayerHealthNew : MonoBehaviour
 {
 	public int startingHealth = 100;                            
@@ -81,5 +82,8 @@ public class PlayerHealthNew : MonoBehaviour
 		playerMovementNew.enabled = false;
 		playerShootingNew.enabled = false;
 	}       
+
 }
+
+
 
