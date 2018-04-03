@@ -327,6 +327,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 512799597}
+--- !u!108 &855131010 stripped
+Light:
+  m_PrefabParentObject: {fileID: 108044669512440250, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1415903472}
 --- !u!1 &883988114
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,32 +920,59 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114877175099787748, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
+        type: 2}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 395832882}
+    - target: {fileID: 114877175099787748, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
+        type: 2}
+      propertyPath: damageImage
+      value: 
+      objectReference: {fileID: 1758210145}
+    - target: {fileID: 114818759761996664, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
+        type: 2}
+      propertyPath: faceLight
+      value: 
+      objectReference: {fileID: 855131010}
+    - target: {fileID: 108044669512440250, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.98661256
+      objectReference: {fileID: 0}
+    - target: {fileID: 108044669512440250, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108044669512440250, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.75735295
+      objectReference: {fileID: 0}
+    - target: {fileID: 198329375915046404, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.9726166
+      objectReference: {fileID: 0}
+    - target: {fileID: 198329375915046404, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 120727449905180968, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 007cd3dce0e6539409edcc484011c877, type: 2}
+    - target: {fileID: 198329375915046404, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.8014706
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 375d32320aa7fb24cb6cb79b53dff2c6, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1415903473 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1402108264206554, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
-    type: 2}
-  m_PrefabInternal: {fileID: 1415903472}
---- !u!114 &1415903474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1415903473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f118bdc3c55afb1488f50c733882dc63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingHealth: 100
-  currentHealth: 0
-  healthSlider: {fileID: 395832882}
-  damageImage: {fileID: 1758210145}
-  deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
-  flashSpeed: 5
-  flashColour: {r: 1, g: 0, b: 0, a: 0.1}
 --- !u!4 &1415903478 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4544953983611198, guid: 375d32320aa7fb24cb6cb79b53dff2c6,
@@ -1207,6 +1239,22 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 400074, guid: be66986effd141b4992d2d78be127139, type: 3}
   m_PrefabInternal: {fileID: 1495436943}
+--- !u!114 &1597507074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1597507065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 657b754672bb5484fbd5c8b8b8317292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  currentHealth: 0
+  sinkSpeed: 2.5
+  scoreValue: 10
+  deathClip: {fileID: 8300000, guid: 1d3bfb9269f136947bf8ac164cace1ff, type: 3}
 --- !u!1 &1629047749
 GameObject:
   m_ObjectHideFlags: 0

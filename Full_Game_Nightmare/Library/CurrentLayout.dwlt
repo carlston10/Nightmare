@@ -107,10 +107,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 675
-  m_MinSize: {x: 711, y: 492}
-  m_MaxSize: {x: 18006, y: 14042}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 1930
+  controlID: 10019
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 1931
+  controlID: 10292
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 1872
+  controlID: 10266
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -391,14 +391,14 @@ MonoBehaviour:
     height: 325
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 121.7040898339181
+  lastFramingTime: 5157.192401887251
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.19999999, y: 0.6, z: 0}
+    m_Target: {x: 0.19878401, y: 0.14238459, z: 0.5}
     speed: 2
-    m_Value: {x: 0.19999999, y: 0.6, z: 0}
+    m_Value: {x: 0.19878401, y: 0.14238459, z: 0.5}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -422,13 +422,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.21982808, y: 0.075125486, z: -0.01698176, w: -0.9724937}
+    m_Target: {x: -0.14494939, y: 0.7123043, z: -0.15428849, w: -0.66918826}
     speed: 2
-    m_Value: {x: -0.21982807, y: 0.075125486, z: -0.01698176, w: -0.97249365}
+    m_Value: {x: -0.14494939, y: 0.71230435, z: -0.15428849, w: -0.66918826}
   m_Size:
-    m_Target: 3.060294
+    m_Target: 1.9626594
     speed: 2
-    m_Value: 3.060294
+    m_Value: 1.9626594
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -546,9 +546,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e0f9ffff
-    m_LastClickedID: -1568
-    m_ExpandedIDs: e0f9ffff9efbffff00000000102d0000242d0000342d0000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 9efbffff000000002c2d0000382d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,10 +619,10 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\asusPC\Desktop\Nightmare\Full_Game_Nightmare
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
+    scrollPos: {x: 0, y: 211}
     m_SelectedIDs: 8e2c0000
     m_LastClickedID: 11406
-    m_ExpandedIDs: 000000006e280000e0290000fc2900007c2b000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000006e28000084280000e0290000fc290000482b00007c2b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -650,7 +650,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006e280000e0290000fc2900007c2b000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000006e28000084280000e0290000fc290000482b00007c2b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
